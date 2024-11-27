@@ -79,27 +79,6 @@
    margin-left: 80px;
    margin-top: 90px;
 }
-@media(max-width: 750px){
-    .nav-content{
-        width: 300px;
-        margin: -97px 38px;
-        gap: 10px;
-        display: none;
-        overflow-x: hidden;
-
-    }
-    .nav{
-        width: 420px;
-    }
-    /* .body-content{
-        width: 300px;
-        height: 200px;
-        text-align: center;
-        margin: 2px 20px;
-        font-size: 16px;
-    } */
-   
-}
 .text-animation{
     color: white;
     font-size: 1.5em;
@@ -210,20 +189,41 @@ button:focus{
     box-shadow: 0 0 25px aqua;
     /* z-index: 1; */
 }
-@media(max-width:750px){
+@media(max-width:458px){
     .box img{
        border: 3px solid white;
-       margin-left: -50vh;
-       width: 35vh;
        display: none;
     }
 }
-@media (max-width:800px){
+@media(max-width: 650px){
+    .nav-content{
+        display: none;
+    }
+    .body-content{
+        width: 400px;
+        height: 500px;
+        line-height: 20px;
+    }
+    .body-content h2{
+        line-height: 50px;
+    }
+    .box img{
+        display: none;
+    }
+    #img1{
+        display: none;
+    }
+}
+@media (max-width:458px){
+    .nav-content{
+        margin: 20px 70px;
+        display: none;
+    }
     #img1{
         display: none   ;
     }
     .body-content h2{
-        font-size: 3em;
+        font-size: 2.5em;
     }
     .box1 img{
         display: none;
@@ -232,41 +232,15 @@ button:focus{
         display: grid;
     }
     .body-content{
-        width: 600px;
+        width: 320px;
         height: 300px;
         text-align: center;
         margin: 2px 20px;
-        font-size: 10px;
     }
     .body-content h3{
-        font-size: 2em;
+        font-size: 1em;
     }
-    .edu2{
-        width: 80vh;
-    }
-    .sen1{
-        width: 320px;
-        height: 20vh;
-        justify-content: center;
-        /* margin: 2px -27vh; */
-    }
-    .sen2{
-        width: 320px;
-        height: 25vh;
-        justify-content: center;
-        /* margin: 2px -27vh; */
-    }
-    .sen3{
-        width: 320px;
-        height: 20vh;
-        justify-content: center;
-        /* margin: 2px -27vh; */
-    }
-    .heading{
-        width: 450px;
-        font-size: 1.5em;
-        text-align: center;
-    }  
+
 
 }
 #Education{
@@ -349,36 +323,26 @@ button:focus{
     .sen{
         display: grid;
         justify-content: center;
+        width: 340px;
     }
-    .edu2{
+    .sen1{
+        width: 300px;
+    }
+    .sen2{
+        width: 300px;
+    }
+    .sen3{
+        width: 300px;
+        height: 30vh;
+    }
+    /* .edu2{
         margin-top: 300px;
         margin-left: 0px;
         width: 100vh;
         overflow-x: hidden;
-    }
-    .sen1{
-        width: 500px;
-        height: 25vh;
-        justify-content: center;
-        margin: 1px 125px;
-
-    }
-    .sen2{
-        width: 500px;
-        height: 30vh;
-        justify-content: center;
-        margin: 2px 20vh;
-        font-size: 14px;
-    }
-    .sen3{
-        width: 500px;
-        height: 23vh;
-        justify-content: center;
-        font-size: 14px;
-        margin: 2px 20vh;
-    }
+    } */
     .heading{
-        width: 600px;
+        width: 400px;
         font-size: 1.5em;
         text-align: center;
     }   
